@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.typekit.net/vbc8gbk.css">
+    <title>Developing Minds</title>
+    <link rel="icon" href="images/devMindsFavicon.png">
+    
+</head>
+<body>
+    <nav class="navbar fixed-top navbar-expand-lg bg-light navbar-light"id="navBackground" >
+      <div class="container" id="navBackgroundColor">
+        <a href="#" class="navbar-brand"><img id="navLogo" src="./Images/logoUpdateFull1.png"></a>
+
+        <button 
+        class="navbar-toggler ms-auto" 
+        type="button" 
+        data-bs-toggle="collapse" 
+        data-bs-target="#navmenu"
+        >
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navmenu">
+            <ul class="navbar-nav nav-tabs ms-auto">
+                <li class="nav-item">
+                    <a href="#" class="nav-link active">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">About</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown">Services</a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="Neuro-Rehab.html">Neuropsychological Rehabilitation</a></li>
+                        <li><a class="dropdown-item" href="spinalInjuries.html">Spinal Cord Injuries</a></li>
+                        <li><a class="dropdown-item" href="medicoLegal.html">Medico Legal</a></li>
+                        <li><a class="dropdown-item" href="training.html">Training</a></li>
+                        <li><a class="dropdown-item" href="occupationalHealth.html">Occupational Health Services</a></li>
+                        <li><a class="dropdown-item" href="supervision.html">Supervision</a></li>
+                        <li><a class="dropdown-item" href="therapeauticApproaches.html">Therepeautic Approaches</a></li>
+                      </ul>
+                </li>
+               <li class="nav-item">
+                    <a href="#questions" class="nav-link">FAQ</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Privacy</a>
+                </li>
+            </ul>
+        </div>
+
+      
+      <div>  
+    </nav>
+
+    <!--background Video-->
+
+    <!--<video id="bgVideo" src="./Videos/Comp-1.mp4" muted loop autoplay></video>-->
+    
+    <!-- Carousel-->
+
+    <div class="container">
+    <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./Images/pebbles.png" class="d-block w-100" alt="...">
+            <div id="overlay"><h1>A <span style="font-style: italic;">positive</span> approach to psycological well-being</h1></div>
+            <div class="carousel-caption d-none d-md-block">
+             <!-- <h5 id="slide1Caption">A positive approach to psychological well-being</h5>
+              <p style="display: none;">Some representative placeholder content for the first slide.</p>-->
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./Images/figureLakeSunrise.png" class="d-block w-100" alt="...">
+            <div id="overlay"><h1>Over <span style="font-style: italic;">25</span> years of clinical experience</h1></div>
+            <div class="carousel-caption d-none d-md-block">
+              <!--<h5>Second slide label</h5>
+              <p>Some representative placeholder content for the second slide.</p>-->
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./Images/lightTrees.png" class="d-block w-100" alt="...">
+            <div id="overlay"><h1>Start<span style="font-style: italic;"></span> your recovery journey today</h1></div>
+            <div class="carousel-caption d-none d-md-block">
+              <!--<h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p>-->
+            </div>
+          </div>
+        </div>
+        <!--<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>-->
+      </div>
+    </div>
+
+    <!--Pop-up contact Button-->
+    <div id="contactButtonDiv">
+        <a href="contact.html" class="btn d-block hideme text-light" id="contactButton">Contact Us</a>
+
+    </div>
+
+    <div class="divider container"></div>
+
+    <!--About-->
+    <section class="text-center text-lg-start">
+    <div class="container">
+        <div class="d-sm-flex" id="aboutUsHome">
+            <div class="" id="aboutUsPara">
+                <h2 class="customFontHeader">About Us</h2>
+                <p>
+                    Developing Minds Psychological Services Ltd. is owned and directed by Dr Alice Campbell Reay,
+                     a highly experienced Consultant Clinical Neuropsychologist and Forensic Psychologist, with over
+                      25 years of experience of providing psychological services, at senior levels both within the NHS
+                       and in the independent sector.
+                    <br>
+                    <br>
+                    Dr Alice Campbell Reay specialises in neuro rehabilitation for people with brain injuries and spinal
+                     cord injuries, conducting mental capacity assessments and providing medico legal neuropsychological 
+                     assessments.
+
+
+                </p>
+
+                <img class="text-center mt-5" id="#aboutUsHomeCertificates" src="Images/icons/certificateLogos/allCertLogos.png">
+            </div>
+            
+                <img src="./Images/symbolLogo1symbolLogo1.png" alt="" class="img-fluid w-25 d-none d-lg-block " id="alicePic">
+           
+        </div>
+    </div>
+    </section>
+    <div class="divider container"></div>
+    
+
+    <!--Professional Services-->
+
+    <section id="profServices" class="p-5">
+        <div class="container">
+            <h2 class="text-center customFontHeader mb-5">Professional Services</h2>
+            <div class="row text-center ">
+                <div class="col-md mb-4 hideme cardCustomAni">
+                    <div class="card bg-light text-dark cardCustomP">
+                        <div class="card-body text-center">
+                            <img class="card-img" src="Images/icons/NeuroRehab.png">
+                            <h4 class="card-title mb-1 customFontHeader">Neuropsychological Rehabilitation</h4>
+                            <p class="card-text mx-3 my-3">
+                            Following a neuropsychological assessment, we can work with an individual with a neurological condition to develop strategies
+                             tailored to their specific requirements in order to create a clear rehabilitation plan. 
+            
+                            </p>
+                            <a href="Neuro-Rehab.html" class="btn btn-dark">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md mb-4 hideme cardCustomAni">
+                    <div class="card bg-light text-dark cardCustomP">
+                        <div class="card-body text-center">
+                            <img class="card-img" src="Images/icons/spinalInj.png">
+                            <h4 class="card-title mb-1 customFontHeader">Spinal Cord Injuries</h4>
+                            <p class="card-text mx-3 my-3">
+                            Major life changes are associated with spinal cord injury. We work as part of the wider
+                             rehabilitation team to assist the client and their family in transitioning through the
+                              period of adjustment, and coping that follows after a spinal cord injury.
+                            </p>
+                            <a href="spinalInjuries.html" class="btn btn-dark">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md mb-4 hideme cardCustomAni">
+                    <div class="card bg-light text-dark cardCustomP">
+                        <div class="card-body text-center">
+                        <img class="card-img" src="Images/icons/medicoLegal.png">
+                        <h4 class="card-title mb-1 customFontHeader">Medico Legal Services</h4>
+                        <p class="card-text mx-3 my-3">
+                            We have extensive experience of preparing legal reports, advising counsel and giving expert evidence
+                             in court. Where there are more complex issues that overlap between different specialist areas,
+                             the team provides consultancy support where needed to the individual or as a team of experts.
+                            
+                        </p>
+                        <a href="medicoLegal.html" class="btn btn-dark cardButtonCustom">Read More</a>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-md mb-4 hideme cardCustomAni">
+                    <div class="card bg-light text-dark cardCustomP">
+                        <div class="card-body text-center">
+                        <img class="card-img" src="Images/icons/training.png">
+                        <h4 class="card-title mb-1 customFontHeader">Training</h4>
+                        <p class="card-text mx-3 my-3">
+                            We believe that well trained staff are more likely to be confident
+                             and achieve their full potential, resulting in a more effective and efficient organisation. 
+            
+                        </p>
+                        <a href="training.html" class="btn btn-dark">Read More</a>
+                    </div>
+                </div>
+                </div>
+                <div class="col-md  mb-4 hideme cardCustomAni">
+                    <div class="card bg-light text-dark cardCustomP">
+                        <div class="card-body text-center">
+                        <img class="card-img" src="Images/icons/occupationServices.png">
+                        <h4 class="card-title mb-1 customFontHeader">Occupational Health Services</h4>
+                        <p class="card-text mx-3 my-3">
+                            Whether your business is small or large, in the voluntary, public or private sector, our business psychology consultants 
+                            can offer advice and interventions specifically tailored to the needs of your organisation.
+
+
+                            </p>
+                        <a href="occupationalHealth.html" class="btn btn-dark">Read More</a>
+                    </div>
+                </div>
+                </div>
+                <div class="col-md  mb-4 hideme cardCustomAni">
+                    <div class="card bg-light text-dark cardCustomP">
+                        <div class="card-body text-center">
+                        <img class="card-img" src="Images/icons/supervision.png">
+                        <h4 class="card-title mb-1 customFontHeader">Supervision</h4>
+                        <p class="card-text mx-3 my-3">
+                            We have provided supervision to various professionals, including Clinical
+                             Psychologists, Clinical Neuropsychologists, Occupational Therapists and Case Managers.
+                            
+                        </p>
+                        <a href="supervision.html" class="btn btn-dark cardButtonCustom">Read More</a>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+       
+    </section>
+<!--Therapeautic approaches Cards-->
+    <section class="p-5">
+        <div class="container">
+            <h2 class="text-center customFontHeader mb-5">Therapeautic approaches</h2>
+            <div class="row text-center">
+                <div class="col-md mb-4 cardCustomAni hideme">
+                    <div class="card bg-light text-dark cardCustom">
+                        <div class="card-body text-center">
+                        <img class="card-img" src="Images/icons/CBT.png">
+                        <h4 class="card-title mb-1 customFontHeader">Cognitive Behavioural Therapy</h4>
+                        <p class="card-text mx-3 my-3">
+                            CBT involves understanding how your thoughts, feelings and behaviour interact to play a role in your problems. 
+            
+                        </p>
+                        <a href="therapeauticApproaches.html" class="btn btn-dark">Read More</a>
+                    </div>
+                </div>
+                </div>
+                <div class="col-md mb-4 cardCustomAni hideme">
+                    <div class="card bg-light text-dark cardCustom">
+                        <div class="card-body text-center">
+                        <img class="card-img" src="Images/icons/mindfulnessApproach.png">
+                        <h4 class="card-title mb-1 customFontHeader">Mindfulness Approaches</h4>
+                        <p class="card-text mx-3 my-3">
+                            Mindfulness is an integrative mind-body approach in which a mental state is achieved by focusing awareness on the present moment.
+                            </p>
+                        <a href="therapeauticApproaches.html" class="btn btn-dark">Read More</a>
+                    </div>
+                </div>
+                </div>
+                <div class="col-md mb-4 cardCustomAni hideme">
+                    <div class="card bg-light text-dark cardCustom">
+                        <div class="card-body text-center">
+                        <img class="card-img" src="Images/icons/compassionApproach.png">
+                        <h4 class="card-title mb-1 customFontHeader">Compassion Focused Therapy</h4>
+                        <p class="card-text mx-3 my-3">
+                            Compassion focused therapy is a process of developing compassion and kindness for the self and others.
+                            
+                        </p>
+                        <a href="therapeauticApproaches.html" class="btn btn-dark cardButtonCustom">Read More</a>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+       
+    </section>
+
+    <!--Question Accordian-->
+
+    <section id="questions" class="p-5">
+        <div class="container">
+            <h2 class="text-center mb-4 customFontHeader">Frequently Asked Questions...</h2>
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                      How do I know if it is time to find some help?
+                    </button>
+                  </h2>
+                  <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <ul>
+                        <li>When you feel you can't do it alone.</li>
+                        <li>When you feel trapped and there's nowhere to turn.</li>
+                        <li>When you frequently worry and never seem to find the answers.</li>
+                        <li>When the way you feel is affecting your sleep, your eating habits, your job, your relationships, your everyday life.</li>
+                        <li>When it's not getting any better.</li>
+                        </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                      How can I book an appointment?
+                    </button>
+                  </h2>
+                  <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">If you would like to book an appointment or request further information, please do not hesitate to <a href="contact.html">contact us.</a></div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                      When are appointments available?
+                    </button>
+                  </h2>
+                  <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Appointments can be arranged for evenings and weekends and will be arranged at a time to suit you. 
+                        Home visits can be arranged in particular circumstances.</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingFour">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                        Terms of Engagement
+                      </button>
+                    </h2>
+                    <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body">Available on request; please contact us to provide this for you</div>
+                    </div>
+                  </div>
+              </div>
+        </div>
+    </section>
+
+    <!--Footer-->
+    
+    <footer class="p-4 bg-light text-light text-center" id="footerCustom">
+        <div class="container">
+            <p class="lead">Copyright &copy; 2023 Developing Minds Psychological Services Ltd.</p>
+            <img class="text-center w-25" id="#aboutUsHomeCertificates" src="Images/icons/certificateLogos/allCertLogos.png">
+            <a href="" class="position-absolute bottom-0 end-0 p-5"></a>
+        </div>
+    </footer>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script
+  src="https://code.jquery.com/jquery-3.7.0.js"
+  integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM="
+  crossorigin="anonymous"></script>
+    <script src="JS/fadeIn.js"></script>
+</body>
+</html>

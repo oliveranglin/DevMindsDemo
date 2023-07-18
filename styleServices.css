@@ -1,0 +1,215 @@
+/*#navBackground {
+    background-color: rgb(200, 207, 209)!important;
+}*/
+
+* /*  {
+    border-style: dashed;
+
+}*/
+
+#navLogo {
+    height:9vh;
+    max-height: 400px;
+    min-height: 50px;
+    
+}
+
+#navBackground {
+    background-color: rgb(97, 157, 241) !important;
+    margin: 0px !important;
+    filter: drop-shadow(2px 10px 20px #64626267);
+}
+
+#navBackgroundColor{
+    background-blend-mode:multiply;
+}
+
+.nav-tabs .nav-item .nav-link .active {
+    color:black !important;
+}
+
+#bgVideo {
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.8;
+
+}
+
+#bgImg{
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    right: 0;
+    left:0;
+    bottom: 0;
+    width: inherit;
+    object-fit:cover;
+    opacity: 1;
+    -webkit-mask-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+
+} 
+
+#carouselExampleCaptions {
+    margin-top: 14vh;
+}
+
+#slide1Caption {
+    font-family: gelica, sans-serif !important;
+    font-weight: 200 !important;
+    font-style: normal !important;
+    z-index:100;
+    text-align:left;
+    bottom: 5%;
+    width: 85%;
+    margin-left: 5%;
+    max-height: 90%;
+    font-size: 6.8vw;
+    color:aliceblue;
+}
+
+#overlay h1 {
+    font-family: gelica, sans-serif !important;
+    font-weight: 200 !important;
+    font-style: normal !important;
+    position:absolute;
+    z-index:100;
+    text-align:left;
+    bottom: 10%;
+    width: 75%;
+    margin-left: 5%;
+    max-height: 80%;
+    font-size: 5.0vw;
+    color:aliceblue;
+}
+
+#overlay h1 em{
+    font-family: gelica, sans-serif !important;
+    font-weight: 100 !important;
+    font-style: italic !important;
+    
+}
+
+#contactButtonDiv {
+    position:fixed;
+    height: 400px;
+    width: 200px;
+    background-color: rgba(73, 73, 73, 0); 
+    margin: auto;
+    right: 1%;
+    bottom: 25%;    
+    display: grid !important;
+    place-items: center !important;
+    z-index: 100;
+}
+
+#contactButton {
+    background-color: rgb(97, 157, 241) !important;
+    border-color: none !important;
+    text-decoration: none !important;
+
+
+}
+
+.fixedElement {
+
+}
+
+.stickyIcon {
+    position: sticky;
+    top: 150px;
+}
+
+.divider {
+    background-color: rgb(97, 157, 241);
+    height: 2px;
+    width:50%;
+    margin-top: 1%;
+}
+
+.hideme {
+    opacity:0;
+}
+
+#servicesTop {
+
+    margin-top: 12vh;
+    padding-top: 5vh;
+
+}
+
+#servicesLow {
+
+    padding-bottom:;
+
+}
+
+.customFontHeader {
+    font-family: gelica, sans-serif;
+    font-weight: 400;
+    font-style:normal;
+} 
+
+#aboutUsPara {
+    margin: auto;
+    margin-left: 0;
+}
+
+#servicesIcon {
+    border-radius: 0;
+    object-fit: contain;
+    margin-left: 10vh;
+    filter: drop-shadow(5px 5px 10px #ffffff6b);
+
+}
+
+.cardCustom {
+    border-style: hidden;
+    filter: drop-shadow(2px 10px 12px #e7e7e7);
+    background-color: rgb(235, 238, 243) !important;
+    height: 100%;
+    border-style: solid ;
+
+}
+
+.card-img {
+    width: 70% !important;
+}
+
+#profServices .card-img {
+    filter: invert(0);
+}
+
+.cardCustomAni div {
+    transition: all 0.2s ease-out;
+}
+
+.cardCustomAni :hover {
+    scale: 1.01;
+    filter: drop-shadow(2px 10px 20px #e7e7e7);
+}
+
+.cardCustomAni img, p, h4  {
+   pointer-events: none;
+}
+
+.cardButtonCustom {
+
+}
+
+.cardCustomP {
+    border-style: hidden;
+    filter: drop-shadow(2px 10px 12px #dddcdc);
+    background-color: rgb(230, 240, 243) !important;
+    height: 100%;
+
+
+}
+
+#footerCustom {
+    background-color: rgb(97, 157, 241) !important;
+}
