@@ -11,7 +11,7 @@
     <link rel="icon" href="images/devMindsFavicon.png">
 </head>
 <body>
-    <nav class="navbar fixed-top navbar-expand-lg bg-light navbar-light"id="navBackground" >
+    <nav class="navbar fixed-top navbar-expand-lg bg-dark navbar-dark"id="navBackground" >
       <div class="container" id="navBackgroundColor">
         <a href="#" class="navbar-brand"><img id="navLogo" src="./Images/logoUpdateFull1.png"></a>
 
@@ -25,11 +25,11 @@
         </button>
 
         <div class="collapse navbar-collapse" id="navmenu">
-            <ul class="navbar-nav nav-tabs ms-auto">
+            <ul class="navbar-nav nav-pills ms-auto">
                 <li class="nav-item">
                     <a href="index.html" class="nav-link">Home</a>
                 </li>
-                <li>
+                <li class="nav-item">
                     <a href="about.html" class="nav-link active">About</a>
                 </li>
                 <li class="nav-item dropdown">
@@ -41,7 +41,7 @@
                         <li><a class="dropdown-item" href="training.html">Training</a></li>
                         <li><a class="dropdown-item" href="occupationalHealth.html">Occupational Health Services</a></li>
                         <li><a class="dropdown-item" href="supervision.html">Supervision</a></li>
-                        <li><a class="dropdown-item" href="therapeauticApproaches.html">Therepeautic Approaches</a></li>
+                        <li><a class="dropdown-item" href="therapeauticApproaches.html">Therapeutic Approaches</a></li>
                       </ul>
                 </li>
                <li class="nav-item">
@@ -49,9 +49,6 @@
                 </li>
                 <li class="nav-item">
                     <a href="contact.html" class="nav-link">Contact</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link">Privacy</a>
                 </li>
             </ul>
         </div>
@@ -62,7 +59,7 @@
 
     <!--background Video-->
 
-    <!--<video id="bgVideo" src="./Videos/Comp-1.mp4" muted loop autoplay></video>-->
+    <video id="bgVideo" src="./Videos/Comp-1.mp4" muted loop autoplay></video>
 
     <!--Pop-up contact Button-->
     <div id="contactButtonDiv">
@@ -73,12 +70,14 @@
     <!--About-->
     <section class="text-center text-lg-start">
     <div class="container">
-        <div class="d-sm-flex" id="servicesTop">
-            
-            <div class="" id="aboutUsPara">
+        <div class="d-sm-flex mb-5" id="servicesTop">
+
+            <div class="row" id="aboutUsPara">
+                <h2 class="customFontHeader" style="color:rgb(61, 120, 209);">About Developing Minds</h2>
                 
-                
-                <h2 class="customFontHeader">About Developing Minds</h2>
+                <div class="col-md-6">
+                <div class="divider container" style="margin-left:0; width: 100%;"></div>
+
                 <p>
                     <br>
                     Dr Alice Campbell Reay holds a B.Sc. in Psychology, a M.Sc. and a Ph.D. in Clinical Psychology. She is a Chartered Consultant Clinical 
@@ -89,6 +88,7 @@
                     Neuropsychology Society and National Academy of Neuropsychology (NAN, USA) She is also registered on the British Psychological Society 
                     Register of Applied Psychology Practice Supervisors (RAPPS).
                     <br>
+
                     <br>
                     She has previously held honorary lectureships at the University of Glasgow and the University of Sheffield and has been an External 
                     Examiner for the Doctorate in Clinical Psychology at the University of Exeter. Alice is an Honorary Lecturer at the University of 
@@ -99,7 +99,11 @@
                     having undertaken some extremely complex assessments for a range of serious offences, assessing both victims and offenders and appearing 
                     in Crown Court as an expert witness to give evidence. Her CV is available on request.
                     <br>
+                    </p>
+                </div>  
+                <div class="col-md-6"> 
                     <br>
+                    <p>
                     Developing Minds Psychological Services Ltd. have a team of Chartered Clinical Psychologists and other Associate Professionals who all 
                     have substantial experience and are also registered with the HCPC. Whilst based across the Midlands, our services are available 
                     nationwide. We offer a range of psychological services to individuals, couples, and families. We have also worked extensively with case 
@@ -107,46 +111,25 @@
                     the legal profession. Our website is designed to give you an overview of what we provide. However, if you have any questions, please do 
                     not hesitate to Contact Us. Please be assured all contacts will be handled in the utmost confidence.
 
-
-                    
-                    
-                    <img src="./Images/icons/certificateLogos/allCertLogos.png" alt="" class="img-fluid w-100 d-none d-lg-block " id="alicePic">
+                    <br><br>
+                    <img src="./Images/symbolLogo1symbolLogo1.png" alt="" class="img-fluid w-75 d-none d-lg-block " id="servicesIcon">
+                    <br><br> 
+                    <!--<img src="./Images/icons/certificateLogos/allCertLogos.png" alt="" class="img-fluid w-100 d-none d-lg-block " id="alicePic">-->
                 </p>
-
             </div>
-            
-                <img src="./Images/symbolLogo1symbolLogo1.png" alt="" class="img-fluid w-50 d-none d-lg-block " id="servicesIcon">
-
-                
-           
-        </div>
-
-        <div class="d-sm-flex" id="servicesLow">
-            
-            <div class="" id="aboutUsPara">
-                
-                
-                <h2 class="customFontHeader"></h2>
-                <p>
-                    <br>
-
             </div>
-            
-                <img src="" alt="" class="img-fluid w-50 d-none d-lg-block " id="servicesIcon">
-           
-        </div>
-    </div>
-    </section>
-    <div class="divider container"></div>
+            </div>
+            </div>
+
     
 
     
     <!--Footer-->
     
-    <footer class="p-5 bg-light text-light text-center" id="footerCustom">
+    <footer class="p-4 bg-light text-light text-center" id="footerCustom">
         <div class="container">
             <p class="lead">Copyright &copy; 2023 Developing Minds Psychological Services Ltd.</p>
-            <img class="text-center mt-5" id="#aboutUsHomeCertificates" src="Images/icons/certificateLogos/allCertLogos.png">
+            <img class="text-center w-25" id="#aboutUsHomeCertificates" src="Images/icons/certificateLogos/allCertLogos.png">
             <a href="" class="position-absolute bottom-0 end-0 p-5"></a>
         </div>
     </footer>
