@@ -14,7 +14,7 @@
 <body>
     <nav class="navbar fixed-top navbar-expand-lg bg-dark navbar-dark"id="navBackground" >
       <div class="container" id="navBackgroundColor">
-        <a href="#" class="navbar-brand"><img id="navLogo" src="./Images/logoUpdateFull1.png"></a>
+        <a href="index.html" class="navbar-brand"><img id="navLogo" src="./Images/logoUpdateFull1.png"></a>
 
         <button 
         class="navbar-toggler ms-auto" 
@@ -68,7 +68,7 @@
 
     <div class="container">
     <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
-        <div class="carousel-indicators">
+        <div class="carousel-indicators d-none d-lg-flex">
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
@@ -86,7 +86,7 @@
           <div class="carousel-item">
             <img src="./Images/benchSunrise.png" class="d-block w-100" alt="...">
             <div id="overlay"><h1>Start<span style="font-style: italic;"></span> your 
-              recovery journey</h1></div>
+              recovery journey today</h1></div>
           </div>
         </div>
         <!--<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
@@ -101,7 +101,7 @@
     </div>
 
     <!--Pop-up contact Button-->
-    <div id="contactButtonDiv">
+    <div class="d-none d-lg-grid" id="contactButtonDiv">
         <a href="contact.html" class="btn d-block hideme text-light" id="contactButton">Contact Us</a>
 
     </div>
@@ -109,7 +109,7 @@
 
 
     <!--About-->
-    <section class="text-center text-lg-start" id="aboutContainer">
+    <section class="text-start" id="aboutContainer">
     <div class="container">
         <div class="d-sm-flex" id="aboutUsHome">
             <div class="" id="aboutUsPara">
@@ -117,20 +117,19 @@
                 <div class="divider container" style="margin-left:0;"></div>
                 <p>
                   <br>
-                    Developing Minds Psychological Services Ltd. is owned and directed by Dr Alice Campbell Reay,
-                     a highly experienced Consultant Clinical Neuropsychologist and Forensic Psychologist, with over
-                      25 years of experience of providing psychological services, at senior levels both within the NHS
-                       and in the independent sector.
-                    <br>
-                    <br>
-                    Dr Alice Campbell Reay specialises in neuro rehabilitation for people with brain injuries and spinal
-                     cord injuries, conducting mental capacity assessments and providing medico legal neuropsychological 
-                     assessments.
-
-
+                  At Developing Minds Psychological Services Ltd., Dr. Campbell Reay leads a team of Chartered 
+                  Clinical Psychologists and Associate Professionals with a wealth of experience. Their services, 
+                  available nationwide, cater to individuals, couples, families, case managers, and various organizations, 
+                  including the NHS, Social Services, and the legal profession.
+                  <br><br>
+                  Rest assured, all inquiries are treated with the utmost confidentiality. For more details, you can request 
+                  Dr. Campbell Reay's CV or contact the team with any questions you may have.
+                  <br>
+                  <br>
+                  <a href="about.html" style="pointer-events: all; text-decoration: none;">Learn more >></a>
                 </p>
 
-                <img class="text-center mt-5" id="#aboutUsHomeCertificates" src="Images/icons/certificateLogos/allCertLogos.png">
+                <img class="text-center mt-5" id="aboutUsHomeCertificates" src="Images/icons/certificateLogos/allCertLogos.png">
             </div>
             
                 <img src="./Images/symbolLogo1symbolLogo1.png" alt="" class="img-fluid w-50 d-none d-lg-block " id="alicePic">
@@ -153,9 +152,9 @@
                         <div class="card-body text-center">
                             <img class="card-img" src="Images/icons/NeuroRehab-white.png">
                             <h4 class="card-title mb-1 customFontHeader">Neuropsychological <br>Rehabilitation</h4>
-                            <p class="card-text mx-3 my-3">
-                            Following a neuropsychological assessment, we can work with an individual with a neurological condition to develop strategies
-                             tailored to their specific requirements in order to create a clear rehabilitation plan. 
+                            <p class="card-text mx-3 my-3 d-none d-md-block">
+                              After a neuropsychological assessment, we tailor strategies to an individual's needs for a 
+                              clear rehabilitation plan.
             
                             </p>
                             <a href="Neuro-Rehab.html" class="btn btn-dark cardButtonCustom">Read More</a>
@@ -167,10 +166,8 @@
                         <div class="card-body text-center">
                             <img class="card-img" src="Images/icons/spinalInj-white.png">
                             <h4 class="card-title mb-1 customFontHeader">Spinal Cord Injuries</h4>
-                            <p class="card-text mx-3 my-3">
-                            Major life changes are associated with spinal cord injury. We work as part of the wider
-                             rehabilitation team to assist the client and their family in transitioning through the
-                              period of adjustment, and coping that follows after a spinal cord injury.
+                            <p class="card-text mx-3 my-3 d-none d-md-block">
+                            We assist clients and their families during the challenging adjustment period following a spinal cord injury.
                             </p>
                             <a href="spinalInjuries.html" class="btn btn-dark cardButtonCustom">Read More</a>
                         </div>
@@ -181,10 +178,8 @@
                         <div class="card-body text-center">
                         <img class="card-img" src="Images/icons/medicoLegal-white.png">
                         <h4 class="card-title mb-1 customFontHeader">Medico Legal Services</h4>
-                        <p class="card-text mx-3 my-3">
-                            We have extensive experience of preparing legal reports, advising counsel and giving expert evidence
-                             in court. Where there are more complex issues that overlap between different specialist areas,
-                             the team provides consultancy support where needed to the individual or as a team of experts.
+                        <p class="card-text mx-3 my-3 d-none d-md-block">
+                          We excel in legal reports, counsel advice, expert testimony, and cross-specialty consultancy support.
                             
                         </p>
                         <a href="medicoLegal.html" class="btn btn-dark cardButtonCustom">Read More</a>
@@ -198,10 +193,9 @@
                         <div class="card-body text-center">
                         <img class="card-img" src="Images/icons/training-white.png">
                         <h4 class="card-title mb-1 customFontHeader">Training</h4>
-                        <p class="card-text mx-3 my-3">
-                            We believe that well trained staff are more likely to be confident
-                             and achieve their full potential, resulting in a more effective and efficient organisation. 
-            
+                        <p class="card-text mx-3 my-3 d-none d-md-block">
+                          We believe well-trained staff are more confident and reach their full potential, 
+                          enhancing organizational effectiveness. 
                         </p>
                         <a href="training.html" class="btn btn-dark cardButtonCustom">Read More</a>
                     </div>
@@ -212,11 +206,9 @@
                         <div class="card-body text-center">
                         <img class="card-img" src="Images/icons/occupationServices-white.png">
                         <h4 class="card-title mb-1 customFontHeader">Occupational Health Services</h4>
-                        <p class="card-text mx-3 my-3">
-                            Whether your business is small or large, in the voluntary, public or private sector, our business psychology consultants 
-                            can offer advice and interventions specifically tailored to the needs of your organisation.
-
-
+                        <p class="card-text mx-3 my-3 d-none d-md-block">
+                          Whether small or large, public or private sector, our consultants provide tailored business 
+                          psychology advice and interventions.
                             </p>
                         <a href="occupationalHealth.html" class="btn btn-dark cardButtonCustom">Read More</a>
                     </div>
@@ -227,7 +219,7 @@
                         <div class="card-body text-center">
                         <img class="card-img" src="Images/icons/supervision-white.png">
                         <h4 class="card-title mb-1 customFontHeader">Supervision</h4>
-                        <p class="card-text mx-3 my-3">
+                        <p class="card-text mx-3 my-3 d-none d-md-block">
                             We have provided supervision to various professionals, including Clinical
                              Psychologists, Clinical Neuropsychologists, Occupational Therapists and Case Managers.
                             
@@ -245,6 +237,7 @@
   <div class="container">
     <h2 class="text-center customFontHeader mb-2" style="color: rgb(255, 155, 113);">Therapeutic approaches</h2>
     <div class="divider container mb-5" style="background-color:rgb(61, 120, 209);"></div>
+
     <div class="row text-center">
 
       <div class="col-md mb-4 cardCustomAni hideme">
@@ -252,7 +245,7 @@
           <div class="card-body text-center">
             <img class="card-img" src="Images/icons/compassionApproach-white.png">
             <h4 class="card-title mb-1 customFontHeader">Compassion Focused Therapy</h4>
-            <p class="card-text mx-3 my-3">
+            <p class="card-text mx-3 my-3 d-none d-md-block">
             Compassion focused therapy is a process of developing compassion and kindness for the self and others.        
             </p>
             <a href="therapeauticApproaches.html" class="btn btn-dark cardButtonCustomT">Read More</a>
@@ -265,7 +258,7 @@
           <div class="card-body text-center">
             <img class="card-img" src="Images/icons/mindfulnessApproach-white.png">
             <h4 class="card-title mb-1 customFontHeader">Mindfulness Approaches</h4>
-            <p class="card-text mx-3 my-3">
+            <p class="card-text mx-3 my-3 d-none d-md-block">
             Mindfulness is an integrative mind-body approach in which a mental state is achieved by focusing awareness on the present moment.
             </p>
             <a href="therapeauticApproaches.html" class="btn btn-dark cardButtonCustomT">Read More</a>
@@ -278,7 +271,7 @@
             <div class="card-body text-center">
               <img class="card-img" src="Images/icons/CBT-white.png">
               <h4 class="card-title mb-1 customFontHeader">Cognitive Behavioural Therapy</h4>
-              <p class="card-text mx-3 my-3">
+              <p class="card-text mx-3 my-3 d-none d-md-block">
               CBT involves understanding how your thoughts, feelings and behaviour interact to play a role in your problems. 
               </p>
               <a href="therapeauticApproaches.html" class="btn btn-dark cardButtonCustomT">Read More</a>
@@ -288,14 +281,17 @@
 
       </div> 
 
-      <div class="row text-center w-75 m-auto">
+      <div class="row text-center">
+
+
+        <div class="d-none d-md-block cardBuffer"></div>
 
         <div class="col-md mb-4 cardCustomAni hideme">
           <div class="card bg-light text-light cardCustom">
             <div class="card-body text-center">
               <img class="card-img" src="Images/icons/ACT.png">
               <h4 class="card-title mb-1 customFontHeader">Acceptance & Commitment Therapy</h4>
-              <p class="card-text mx-3 my-3">
+              <p class="card-text mx-3 my-3 d-none d-md-block">
                 ACT is a form of therapy that teaches mindfulness skills with a large emphasis on connecting with values, 
                 to that which matters the most to us.
               </p>
@@ -309,7 +305,7 @@
             <div class="card-body text-center">
               <img class="card-img" src="Images/icons/EMDR.png">
               <h4 class="card-title mb-1 customFontHeader">Eye Movement Desensitisation and Reprocessing</h4>
-              <p class="card-text mx-3 my-3">
+              <p class="card-text mx-3 my-3 d-none d-md-block">
                 EMDR (Eye Movement Desensitisation and Reprocessing) is a comprehensive psychotherapy that helps you process and 
                 recover from past experiences.
               </p>
@@ -317,6 +313,8 @@
             </div>
           </div>
         </div>
+
+        <div class="d-none d-md-block cardBuffer"></div>
 
       </div>
 
@@ -327,7 +325,7 @@
 
     <section id="questions" class="p-5">
         <div class="container">
-            <h2 class="text-center mb-4 customFontHeader">Frequently Asked Questions...</h2>
+            <h2 class="text-center mb-4 customFontHeader" style="color: rgb(61, 120, 209);">Frequently Asked Questions...</h2>
             <div class="accordion accordion-flush" id="accordionFlushExample">
                 <div class="accordion-item">
                   <h2 class="accordion-header" id="flush-headingOne">
@@ -388,7 +386,7 @@
         <div class="container">
             <p class="lead">Copyright &copy; 2023 Developing Minds Psychological Services Ltd.</p>
             <img class="text-center w-25" id="#aboutUsHomeCertificates" src="Images/icons/certificateLogos/allCertLogos.png">
-            <a href="" class="position-absolute bottom-0 end-0 p-5"></a>
+            <h6 class="mt-3" style="color:rgb(228, 228, 228)">Website & Branding design by <a href="www.oliveranglin.com" style="color:rgb(255, 255, 255)" >Oliver Anglin</a></h6>
         </div>
     </footer>
 

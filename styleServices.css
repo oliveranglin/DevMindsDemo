@@ -84,7 +84,7 @@ body p {
     margin: auto;
     right: 1%;
     bottom: 25%;    
-    display: grid !important;
+    display: grid;
     place-items: center !important;
     z-index: 100;
 }
